@@ -51,4 +51,10 @@ public class ExtraSpaceRemoverTest {
         String input = "GeeksforGeeks";
         assertThat(extraSpaceRemover.remove(input)).isEqualTo(input);
     }
+
+    @Test
+    public void holdCorrectlyStringWhichContainsOnlyWhiteSpaces() throws Exception {
+        String input = "        ";
+        assertThat(extraSpaceRemover.remove(input)).isEqualTo("");
+    }
 }

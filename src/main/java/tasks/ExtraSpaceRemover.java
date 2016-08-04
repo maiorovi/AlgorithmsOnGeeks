@@ -28,7 +28,7 @@ public class ExtraSpaceRemover {
         int i = 0;
         char[] ch = str.toCharArray();
 
-        while(Character.isWhitespace(ch[i])) {
+        while(Character.isWhitespace(ch[i]) && i < ch.length - 1) {
             i++;
         }
 

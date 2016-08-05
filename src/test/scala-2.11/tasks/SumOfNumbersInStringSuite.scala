@@ -5,7 +5,7 @@ import org.scalatest.{FlatSpec, Matchers}
 class SumOfNumbersInStringSuite extends FlatSpec with Matchers {
 
 
-  "A sum of numbers of empty string" should "should be zero" in {
+  "A sum of numbers of empty string" should "be zero" in {
     val st = SumOfNumbersInString
     st.sumOfNumberInString("") should be (0)
   }

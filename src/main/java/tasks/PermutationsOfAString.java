@@ -16,7 +16,6 @@ public class PermutationsOfAString {
 
         for (int i = start; i < s.length(); i++) {
             permute(swap(s, start, i), start+1);
-//            permute(swap(s, start, i+1), i+1);
         }
     }
 

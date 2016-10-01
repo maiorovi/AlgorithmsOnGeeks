@@ -1,4 +1,4 @@
-package tasks.exceptions;
+package tasks;
 
 public class MergeSort {
 

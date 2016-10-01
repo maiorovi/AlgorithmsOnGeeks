@@ -33,7 +33,7 @@ public class QuickSort {
         sort(arr, pos+1, high);
     }
 
-    private static int partition(int[] arr, int lo, int high) {
+    public static int partition(int[] arr, int lo, int high) {
         int p = arr[lo];
         int i = lo+1;
         int j = high;
